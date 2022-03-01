@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: 1px solid red;
+    /* outline: none !important; */
 }
 
 a:hover {
@@ -474,7 +474,7 @@ nav .caret {
 }
 
 button {
-    outline: 1px solid red;
+    /* outline: none !important; */
 }
 
 .btn-rd {
