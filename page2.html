@@ -30,7 +30,7 @@
 
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html">
+				<a title="Revenir sur la page d'accueil" class="navbar-brand" href="index.html">
 					<img src="img/la-chouette-agence.png" alt="logo la chouette agence" height="40" />
 				</a>
 
@@ -46,11 +46,11 @@
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a href="index.html">Accueil</a>
+						<a title="Accueil" href="index.html">Accueil</a>
 					</li>
 	
 					<li>
-						<a href="page2.html">Contact</a>
+						<a title="Contact" href="page2.html">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -87,38 +87,42 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-					<div class="form-group">
+					<div title="Saisissez votre nom et prénom" class="form-group">
 						<label class="pd-size">
 							Nom*
 						</label>
 						<input id="name" class="form-control" placeholder="Entrez votre nom, prénom" required/>
 					</div>
-					<div class="form-group">
+					<div title="Saisissez votre adresse email" class="form-group">
 						<label class="pd-size">
 							Adresse email*
 						</label>
 						<input id="email" class="form-control" type="email" placeholder="Entrez votre adresse email" required />
 					</div>
-					<div class="form-group">
+					<div title="Écrivez votre réponse" class="form-group">
 						<label class="pd-size">
 							Comment nous avez-vous connu ?*
 						</label class="pd-size">
 						<input class="form-control" type="email" placeholder="Votre réponse..." required id="input_504" />
 					</div>
-					<div class="form-group">
+					<div title="Décrivez votre projet" class="form-group">
 						<label class="pd-size">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)*<br>
 						</label>
-						<textarea id="message" class="form-control" rows="4" cols="50" placeholder="Décrire votre projet..." required></textarea>
+						<textarea id="message" class="form-control" rows="4" cols="50" placeholder="Description de votre projet..." required></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<button title="Cliquez pour envoyer" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
 					</button>
 				</form>
 			</div>
 			<div class="col-sm-12 text-center mt-15">
-				<p>
-					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+				<p> <a title="Notre adresse email" href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a>
+					<br>
+					<a title="Adresse de notre agence" href="https://www.google.fr/maps/place/2+Pl.+Sathonay,+69001+Lyon/@45.7695278,4.8279786,17z/data=!3m1!4b1!4m5!3m4!1s0x47f4eb020f3664e9:0x13e3d71752922c1f!8m2!3d45.7695241!4d4.8301673">2, Place Sathonay 69001 Lyon</a>
+					<br>
+					Ouvert de 9h à 18h, du lundi au vendredi
+					<br>
 				</p>
 			</div>
 		</div>
@@ -146,22 +150,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://twitter.com/?lang=fr" target="_blank"><span class="fa fa-twitter icon-md"></span></a>
+							<a title="Twitter" class="social" href="https://twitter.com/?lang=fr" target="_blank"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://fr-fr.facebook.com/" target="_blank"><span class="fa fa-facebook icon-md"></span></a>
+							<a title="Facebook" class="social" href="https://fr-fr.facebook.com/" target="_blank"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://dribbble.com/" target="_blank"><span class="fa fa-dribbble icon-md"></span></a>
+							<a title="Dribbble" class="social" href="https://dribbble.com/" target="_blank"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://www.instagram.com/?hl=fr" target="_blank"><span class="fa fa-instagram icon-md"></span></a>
+							<a title="Instagram" class="social" href="https://www.instagram.com/?hl=fr" target="_blank"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div> 
