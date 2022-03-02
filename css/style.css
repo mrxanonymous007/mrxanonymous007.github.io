@@ -12,6 +12,14 @@ button {
     transition: all .3s ease-in-out;
 }
 
+a:focus {
+    border: 1.5px solid black;
+}
+
+button:focus {
+   border: 1.5px solid black;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -444,7 +452,7 @@ nav .caret {
 }
 
 .mg-md {
-    margin-top: 10px;
+    margin-top: 24px;
     margin-bottom: 20px;
 }
 
@@ -459,6 +467,10 @@ nav .caret {
 
 .prl-150 {
     padding: 0 150px;
+}
+
+.pt-10 {
+    padding-top: 10.9px;
 }
 
 .btn {
@@ -521,10 +533,24 @@ nav .caret {
     font-size: 15.5px;
 }
 
-
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: #3f3f3f;
+}
+
+.form-control-invalid:required:focus:invalid {
+    border: 2px solid #840303;
+    background-color: #e06161;
+    color: black;
+}
+
+.form-control-valid:required:valid {
+    border: 1px solid #007000;
+    background-color: #a9e2a9;
 }
 
 .scrollToTop {
@@ -757,7 +783,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin-bottom: 0;
 }
 
 .portfolio-row {
@@ -845,6 +871,10 @@ h4 {
 .bg-presentation {
     background-image: url("/img/image-de-presentation.jpg");
 }
+
+
+
+/* Taille d'écran format portable, tablette (portrait et paysage inclus) */
 
 @media (max-width: 1024px) {
     .bloc {
@@ -1042,6 +1072,10 @@ h4 {
     .social {
         justify-content: space-between;
         display: flex;
+    }
+
+    .pt-10 {
+        padding-top: 0;
     }
 }
 
