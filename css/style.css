@@ -60,6 +60,10 @@ a:hover {
     padding: 20px 50px;
 }
 
+.bloc3-h2-bold {
+    font-weight: bold;
+}
+
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -137,7 +141,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #f2cdbf;
 }
 
 .d-bloc .a-btn:hover,
@@ -788,7 +792,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #ee6f33;
+    background-color: #ce4d11;
 }
 
 .tc-white {
@@ -796,12 +800,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #ee6f33;
+    background: #ce4d11;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #ce4d11!important;
+    background: #9a3a0d!important;
     color: #FFFFFF!important;
 }
 
@@ -814,11 +818,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #ce4d11!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #ce4d11!important;
+    color: #9a3a0d!important;
 }
 
 .icon-dark-slate-blue {
